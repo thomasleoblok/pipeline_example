@@ -1,0 +1,10 @@
+name: _mit_specielle_ci
+
+on:
+  push:
+    branches:
+      - "main"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
